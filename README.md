@@ -30,11 +30,11 @@ npm start
 ```
 
 ### API
-**sign**
+**sign**  
     signing a message using the private key
 
 ```shell
-    curl -d '{"message": "the fox xof eht"}' -H "Content-Type: application/json" -X POST localhost:3001/sign
+curl -d '{"message": "the fox xof eht"}' -H "Content-Type: application/json" -X POST localhost:3001/sign
 ```
 
 **validate**
@@ -42,7 +42,7 @@ npm start
     returns boolean (true if the signature is valid)
 
 ```shell
-    curl -d '{"message": "the fox xof eht", "signature": "aaa"}' -H "Content-Type: application/json" -X POST localhost:3001/validate
+curl -d '{"message": "the fox xof eht", "signature": "aaa"}' -H "Content-Type: application/json" -X POST localhost:3001/validate
 ```
 
 ### License
