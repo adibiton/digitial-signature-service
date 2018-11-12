@@ -1,4 +1,4 @@
-###digital-signature-service
+## digital-signature-service
 
 This is a simple express service that demonstrate a simple digital signature using the crypto (node.js) module
 
