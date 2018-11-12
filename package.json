@@ -1,0 +1,16 @@
+{
+  "name": "digital-signature-demo",
+  "version": "1.0.0",
+  "description": "A simple web service to demonstrate the usage of a public/private key cryptography",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Adi biton",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.18.3",
+    "express": "~4.16.4"
+  }
+}
