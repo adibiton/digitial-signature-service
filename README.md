@@ -12,7 +12,7 @@ openssl rsa -pubout -in rsa_1024_private.pem -out rsa_1024_public.pem
 
 will result in two files **rsa_1024_private.pem** and **rsa_1024_public.pem**
 
-2. please create **keys** folder under the root folder with the following files:
+2. Create **keys** folder under the root folder with the following files:
 
 ```shell
 keys
@@ -30,7 +30,7 @@ npm start
 ```
 
 ### API
-**sign**  
+**sign**
     signing a message using the private key
 
 ```shell
